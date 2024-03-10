@@ -1,0 +1,33 @@
+.second {
+    display: block;
+    width: 1216px;
+    min-height: 281px;
+    margin: 80px auto 0;
+    padding-bottom: 80px;
+}
+
+.second .second_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 61px;
+}
+
+.second .second_wrap .second_item {
+    display: block;
+    width: 280px;
+}
+
+.second .second_wrap .second_item .item_title {
+    margin-top: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #191C1F;
+}
+
+.second .second_wrap .second_item .item_descr {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #5E646A;
+}

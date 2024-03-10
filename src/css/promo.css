@@ -1,0 +1,116 @@
+.promo {
+    position: relative;
+    z-index: 2;
+    min-height: 960px;
+    background: url('../img/Lunch_atop_a_Skyscraper\ 1.png') center center/cover no-repeat;
+}
+
+.promo .bg_filling {
+    background-color:#2A6CEA;
+    opacity: 0.8;
+    min-height: 1040px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: -80px;
+}
+.promo .header {
+    display: flex;
+    min-height: 80px;
+}
+
+.promo .header .logo {
+display: flex;
+}
+
+.promo .header .logo .circle {
+    display: flex;
+    margin: 28px 0 0 352px;
+}
+
+.promo .header .logo .circle .first_circle {
+    z-index: 2;
+    width: 24px;
+    height: 24px;
+    background-color: #2A6CEA;
+    border-radius: 50%;
+    
+}
+
+.promo .header .logo .circle .second_circle {
+    z-index: 1;
+    width: 24px;
+    height: 24px;
+    background-color: #ECEFF2;
+    border-radius: 50%;
+    margin-left: -12px;
+}
+
+.promo .header .logo .name {
+    display: block;
+    margin: 28px 0 0 9px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.promo .header .menu {
+    margin-left: 629px;
+    margin-top: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.promo .header .menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 24px;
+}
+
+.promo .header .menu a:hover {
+    text-decoration: underline;
+}
+
+.promo .promo_slogan {
+    display: block;
+    margin: 233px auto 0;
+    width: 748px;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 123%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.promo .promo_descr {
+    display: block;
+    margin: 18px auto 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.promo .button_promo {
+    display: block;
+    margin: 92px auto 0;
+    border-radius: 4px;
+    padding: 20px 40px;
+    width: 251px;
+    height: 64px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    background-color: #ECEFF2;
+    color: #191C1F;
+}
+
+.promo .button_promo:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}

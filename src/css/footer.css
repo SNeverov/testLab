@@ -1,0 +1,13 @@
+footer {
+    position: relative;
+    min-height: 88px;
+    border-top: 1px solid #ECEFF2;
+    display: flex;
+    justify-content: center;
+}
+
+footer .copyright {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

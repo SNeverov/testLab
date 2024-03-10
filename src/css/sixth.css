@@ -1,0 +1,30 @@
+.sixth {
+    min-height: 662px;
+    background-color: #F6F8FA;
+    padding: 68px 0;
+}
+
+.sixth .sixth_wrap {
+    max-width: 1216px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 592px 592px;
+    grid-template-rows: max-content max-content;
+    column-gap: 32px;
+    row-gap: 37px;
+}
+
+.sixth .sixth_wrap .sixth_text span {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 178%;
+    color: #191C1F;
+}
+
+.sixth .sixth_wrap .sixth_text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #191C1F;
+    margin-top: 17px;
+}
