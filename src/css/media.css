@@ -1,0 +1,136 @@
+@media (max-width: 1600px) {
+    .promo .header .logo .circle {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .promo .header .menu {
+        margin-left: 400px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .promo .header .menu {
+        margin-left: 300px;
+    }
+    .second {
+        width: 718px;
+    }
+    .second .second_wrap {
+        display: grid;
+        grid-template-columns: 342px 342px;
+        grid-template-rows: 72px 72px;
+        column-gap: 34px;
+        row-gap: 32px;
+        width: 718px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .second .second_wrap .second_item {
+        display: grid;
+        grid-template-columns: 56px 270px;
+        grid-template-rows: auto auto;
+        column-gap: 16px;
+    }
+    .second .second_wrap .second_item img {
+        width: 56px;
+        height: 56px;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    .second .second_wrap .second_item .item_title {
+        margin-top: 0;
+    }
+    .third {
+        width: 727px;
+        padding-bottom: 56px;
+    }
+    .third .third_text .third_title {
+        font-size: 20px;
+        line-height: 120%;
+        margin-top: 15px;
+    }
+    .third .third_text .third_descr {
+        width: 374px;
+        margin-top: 15px;
+    }
+    .third img {
+        width: 351px;
+        height: 265px;
+    }
+    .feedback .slick-slide {
+        width: 351px;
+    }
+    .feedback .wrap_items {
+        width: 726px;
+    }
+}
+
+@media (max-width: 769px) {
+    .promo {
+        min-height: 1024px;
+        background: url('../img/Lunch_atop_a_Skyscraper\ 1\ mob.png') center center/cover no-repeat;
+    }
+    .promo .bg_filling {
+        min-height: 1104px;
+    }
+    .promo .promo_slogan {
+        margin: 233px auto 0;
+        width: 476px;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 125%;
+    }
+    .promo .header .logo .circle {
+        margin-left: 16px;
+    }
+    .promo .promo_descr {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 175%;
+        margin-top: 17px;
+    }
+    .promo .header .menu {
+        display: none;
+    }
+    .promo .header .menumob {
+        display: block;
+        z-index: 90;
+    }
+    .promo .header .menumob_active {
+        right: 0;
+    }
+    .promo .hamburger {
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 62px;
+        height: 62px;
+        z-index: 100;
+    }
+    .promo .hamburger .hamburger_wrap {
+        position: absolute;
+        top: 34px;
+        right: 17px;
+    }
+    .promo .hamburger span {
+        display: block;
+        height: 2px;
+        width: 22px;
+        background-color: #FFFFFF;
+        margin-bottom: 8px;
+        transition: 0.5s all;
+    }
+    .promo .hamburger .hamburger_active span {
+        margin-bottom: -2px;
+        background-color: #191C1F;
+    }
+    .promo .hamburger .hamburger_active span:nth-child(1) {
+        transform: rotate(-45deg);
+    }
+    .promo .hamburger .hamburger_active span:nth-child(2) {
+        transform: rotate(45deg);
+    }
+}

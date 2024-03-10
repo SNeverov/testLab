@@ -114,3 +114,7 @@ display: flex;
     background-color: #FFFFFF;
     cursor: pointer;
 }
+
+.promo .hamburger {
+    display: none;
+}

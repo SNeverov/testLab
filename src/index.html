@@ -20,11 +20,48 @@
                 <div class="name">testLab</div>
             </div>
             <div class="menu">
-                <a href="#">Как это работает</a>
-                <a href="#">3-й блок</a>
-                <a href="#">Вопросы и ответы</a>
-                <a href="#">Форма</a>
+                <a href="#second">Как это работает</a>
+                <a href="#third">3-й блок</a>
+                <a href="#faq">Вопросы и ответы</a>
+                <a href="#form">Форма</a>
             </div>
+
+            <div class="hamburger">
+                <div class="hamburger_wrap">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <div class="menumob">
+                <div class="logo">
+                    <div class="circle">
+                        <div class="first_circle"></div>
+                        <div class="second_circle"></div>
+                    </div>
+                    <div class="namemob">testLab</div>
+                </div>
+
+                <div class="menumob_links">
+                    <div class="link">
+                        <a href="#second">Как это работает</a>
+                        <div class="menumob_arrow"><img src="icons/menu_arrow.svg" alt="arrow"></div>
+                    </div>
+                    <div class="link">
+                        <a href="#third">3-й блок</a>
+                        <div class="menumob_arrow"><img src="icons/menu_arrow.svg" alt="arrow"></div>
+                    </div>
+                    <div class="link">
+                        <a href="#faq">Вопросы и ответы</a>
+                        <div class="menumob_arrow"><img src="icons/menu_arrow.svg" alt="arrow"></div>
+                    </div>
+                    <div class="link">
+                        <a href="#form">Форма</a>
+                        <div class="menumob_arrow"><img src="icons/menu_arrow.svg" alt="arrow"></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <div class="promo_slogan">
             Говорят, никогда не поздно сменить профессию
@@ -39,7 +76,7 @@
     </section>
 
     <!-- ВТОРОЙ БЛОК -->
-    <section class="second">
+    <section class="second" id="second">
 
             <h1>Как это работает?</h1>
 
@@ -68,7 +105,7 @@
     </section>
 
     <!-- ТРЕТИЙ БЛОК -->
-    <section class="third">
+    <section class="third" id="third">
         <div class="third_text">
             <div class="third_title">
                 Круто, ты дошел до третьего блока
@@ -149,7 +186,7 @@
     </section>
 
     <!-- ПЯТЫЙ БЛОК. ВОПРОСЫ И ОТВЕТЫ. -->
-    <section class="faq">
+    <section class="faq" id="faq">
             <h1>Вопросы и ответы</h1>
 
             <div class="accordion">
@@ -255,7 +292,7 @@
     </section>
 
     <!-- СЕДЬМОЙ БЛОК. ОТПРАВКА ФОРМЫ -->
-    <section class="form">
+    <section class="form" id="form">
         <h1>Отправь форму</h1>
 
         <form class="form_submit" action="#">
@@ -284,5 +321,6 @@
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/script.js"></script>
     <script src="js/accordion.js"></script>
+    <script src="js/hamburger.js"></script>
 </body>
 </html>
