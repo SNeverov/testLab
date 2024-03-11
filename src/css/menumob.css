@@ -3,8 +3,9 @@
     position: absolute;
     width: 375px;
     height: 667px;
+    /* height: 100vh; */
     background-color: #FFFFFF;
-    left: -100%;
+    right: 0;
     transition: 0.6s all;
 }
 

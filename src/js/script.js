@@ -14,6 +14,7 @@ $(document).ready(function(){
 			prevArrow: '<button type="button" class="slick-prev"></button>',
             nextArrow: '<button type="button" class="slick-next"></button>',
 			// variableWidth: true,
+			adaptiveHeight: true,
 			responsive: [
 				{
 				  breakpoint: 1401,
@@ -28,6 +29,13 @@ $(document).ready(function(){
 					settings: {
 						arrows: false,
 						slidesToShow: 2
+					}
+				}, {
+					breakpoint: 376,
+					settings: {
+						slidesToShow: 1,
+						arrows: false,
+						adaptiveHeight: true
 					}
 				}
 			]
